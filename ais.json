@@ -1,0 +1,51 @@
+[
+  {
+    "name": "ChatGPT",
+    "link": "https://chat.openai.com",
+    "price": "free-trial",
+    "functions": ["text generation","coding assistance","image generation"],
+    "ratings": { "text generation": [5,4,5], "image generation": [4,5] }
+  },
+  {
+    "name": "Claude",
+    "link": "https://claude.ai",
+    "price": "free-trial",
+    "functions": ["text generation","coding assistance"],
+    "ratings": { "text generation": [4,5], "coding assistance": [5,5] }
+  },
+  {
+    "name": "MidJourney",
+    "link": "https://midjourney.com",
+    "price": "10+",
+    "functions": ["image generation"],
+    "ratings": { "image generation": [5,5,4] }
+  },
+  {
+    "name": "Runway",
+    "link": "https://runwayml.com",
+    "price": "free-trial",
+    "functions": ["video generation","image generation"],
+    "ratings": { "video generation": [5,4,5], "image generation": [4,4] }
+  },
+  {
+    "name": "ElevenLabs",
+    "link": "https://elevenlabs.io",
+    "price": "6-10",
+    "functions": ["voice generation"],
+    "ratings": { "voice generation": [5,5,4,5,5] }
+  },
+  {
+    "name": "DALL-E",
+    "link": "https://openai.com/dall-e",
+    "price": "free-trial",
+    "functions": ["image generation"],
+    "ratings": { "image generation": [5,4,4] }
+  },
+  {
+    "name": "Synthesia",
+    "link": "https://www.synthesia.io",
+    "price": "10+",
+    "functions": ["video avatars"],
+    "ratings": { "video avatars": [5,4,5] }
+  }
+]
