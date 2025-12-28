@@ -1,0 +1,18 @@
+body { margin:0; font-family:Arial, sans-serif; background:#111; color:white; }
+header { background:black; padding:20px; text-align:center; font-size:26px; color:#76b900; border-bottom:2px solid #76b900; }
+.center-container { width:90%; max-width:700px; margin:100px auto; text-align:center; }
+#searchInput { width:100%; padding:14px; font-size:18px; border-radius:8px; border:2px solid #76b900; outline:none; background:#000; color:white; }
+#searchInput:focus { box-shadow:0 0 10px #76b900; }
+#searchResults { margin-top:20px; }
+.ai-card, .function-btn { background:#000; border:2px solid #76b900; margin:12px 0; padding:16px; border-radius:12px; cursor:pointer; transition:0.2s; }
+.ai-card:hover, .function-btn:hover { background:#76b900; color:black; }
+.function-btn { width:100%; }
+#functionSection { padding:30px; width:90%; margin:auto; max-width:1000px; }
+#functionTitle { font-size:28px; text-align:center; margin-bottom:20px; color:#76b900; }
+.filterBar { display:flex; justify-content:space-between; margin-bottom:20px; }
+select, button { padding:10px; border-radius:8px; border:2px solid #76b900; background:black; color:white; cursor:pointer; }
+select:hover, button:hover { background:#76b900; color:black; }
+.rating { margin-top:8px; font-size:16px; }
+.star { cursor:pointer; color:#76b900; font-size:20px; }
+.hidden { display:none; }
+#loadMore { width:100%; margin-top:20px; }
